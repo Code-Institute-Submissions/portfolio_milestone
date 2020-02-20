@@ -1,3 +1,5 @@
-body {
-  background: black;
+#showcase {
+  background: url("../img/showcaseImg.jpg") bottom center / cover no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
