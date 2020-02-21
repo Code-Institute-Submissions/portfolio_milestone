@@ -13,3 +13,8 @@ This project is a one page static portfolio site that I am using to highlight my
 5. Projects: this section draws the users attention to some of the projects that I have worked on.
 6. Contact: this section consits of a form to contact me.
 7. Footer: This final section is not considerd part of the main section but it does contain some useful social media links that can be used as an alternative way of contacting me.
+
+## UI / UX
+
+The layout and content of the site has been carfully curated to logically tell the user the story of my skill set.
+The showcase section contains an eye catching heading that introduces me to the user and is designed to grab attention. The about me section informs the user about me and gives them a taste of my personality. The skill section highlights some of my skills and the tech stack that I am comfortable using. The projects section demonstrates the topics that I have discussed in my skills section. Finally the contact section allows the user to get in touch with me after they have learned about my personality, read about my skillset and seen a demonstration of those skills in the project section.
