@@ -71,6 +71,26 @@ p {
   width: 100vw;
   height: 90vh;
   position: fixed;
+  color: #fff;
+}
+
+#showcase h1 {
+  /* color: #fff; */
+  font-size: 6rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#showcase h2 {
+  font-size: 4rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#showcase p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 /* End Showcase Section */
