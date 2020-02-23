@@ -42,6 +42,27 @@ p {
 /* End of Utilities */
 
 /* Nav Bar Section */
+.navbar {
+  background-color: var(--pearl-white);
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  color: var(--light-blue);
+}
+
+.navbar .nav-link {
+  font-size: 1.25rem;
+  margin: 0 5px 0 5px;
+  color: var(--light-blue);
+  transition: all 0.5s;
+}
+
+.navbar .nav-link:hover {
+  color: var(--steele-blue);
+  border-bottom: 1px solid var(--steele-blue);
+  padding-bottom: 0;
+}
 /* End Nav Bar Section */
 
 /* Showcase Section */
@@ -49,6 +70,7 @@ p {
   background: url("../img/showcase.jpg") bottom center / cover no-repeat;
   width: 100vw;
   height: 90vh;
+  position: fixed;
 }
 
 /* End Showcase Section */
