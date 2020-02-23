@@ -29,6 +29,7 @@ h6 {
 
 /* Paragraphs */
 p {
+  color: var(--smokey-black);
   line-height: 1.5;
   font-size: 1.25rem;
 }
@@ -108,9 +109,26 @@ p {
 }
 
 #showcase p {
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 1px;
+}
+
+#showcase #contact-btn {
+  background-color: var(--pearl-white);
+  color: var(--smokey-black);
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  transition: all 0.2s;
+  margin-top: 5px;
+}
+
+#showcase #contact-btn:hover {
+  background-color: var(--smokey-black);
+  color: var(--pearl-white);
 }
 
 /* End Showcase Section */
