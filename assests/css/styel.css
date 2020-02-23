@@ -1,6 +1,46 @@
 /* Google Fonts import */
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Montserrat:100,300,400,500,600,700&display=swap");
 
+/* Common Styles */
+
+:root {
+  /* Color scheme */
+  --pearl-white: #e6e1c5;
+  --smokey-black: #0a0908;
+  --fresh-air: #a8e0ff;
+  --light-blue: #5fbcff;
+  --steele-blue: #3e78b2;
+}
+
+/* Body */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+/* End of Common Styles */
+
+/* Utilities */
+.upper {
+  text-transform: uppercase;
+}
+/* End of Utilities */
+
 /* Nav Bar Section */
 /* End Nav Bar Section */
 
@@ -12,8 +52,3 @@
 }
 
 /* End Showcase Section */
-
-/* #showcase h1 {
-  font-family: "Merriweather", serif;
-  font-family: "Lato", sans-serif; 
-} */
