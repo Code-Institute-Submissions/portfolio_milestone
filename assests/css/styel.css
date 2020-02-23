@@ -123,7 +123,7 @@ p {
   font-size: 1.5rem;
   border-radius: 2rem;
   transition: all 0.2s;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 #showcase #contact-btn:hover {
@@ -132,3 +132,21 @@ p {
 }
 
 /* End Showcase Section */
+
+/* Media Quiries */
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    background-color: var(--smokey-black);
+    color: var(--pearl-white);
+    opacity: 0.6;
+  }
+
+  .navbar .nav-link {
+    padding-bottom: 0;
+  }
+
+  .navbar .nav-link:hover {
+    border-bottom: none;
+  }
+}
