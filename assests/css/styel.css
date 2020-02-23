@@ -3,14 +3,14 @@
 
 /* Common Styles */
 
-:root {
-  /* Color scheme */
+/* :root {
+  Color scheme
   --pearl-white: #e6e1c5;
   --smokey-black: #0a0908;
   --fresh-air: #a8e0ff;
   --light-blue: #5fbcff;
   --steele-blue: #3e78b2;
-}
+}  */
 
 /* Body */
 body {
@@ -43,13 +43,13 @@ p {
 }
 
 .background-light {
-  background-color: var(--pearl-white);
-  color: var(--smokey-black);
+  background-color: #e6e1c5;
+  color: #0a0908;
 }
 
 .background-dark {
-  background-color: var(--steele-blue);
-  color: var(--pearl-white);
+  background-color: #3e78b2;
+  color: #e6e1c5;
 }
 /* End of Utilities */
 
@@ -65,19 +65,19 @@ p {
 
 .navbar .navbar-brand {
   font-size: 1.5rem;
-  color: var(--pearl-white);
+  color: #e6e1c5;
 }
 
 .navbar .nav-link {
   font-size: 1.25rem;
   margin: 0 5px 0 5px;
-  color: var(--pearl-white);
+  color: #e6e1c5;
   transition: all 0.5s;
 }
 
 .navbar .nav-link:hover {
-  color: var(--light-blue);
-  border-bottom: 1px solid var(--light-blue);
+  color: #5fbcff;
+  border-bottom: 1px solid #5fbcff;
   padding-bottom: 0;
 }
 /* End Nav Bar Section */
@@ -127,8 +127,8 @@ p {
 }
 
 #showcase #contact-btn {
-  background-color: var(--pearl-white);
-  color: var(--smokey-black);
+  background-color: #e6e1c5;
+  color: #0a0908;
   border: none;
   outline: none;
   font-size: 1.5rem;
@@ -138,8 +138,8 @@ p {
 }
 
 #showcase #contact-btn:hover {
-  background-color: var(--smokey-black);
-  color: var(--pearl-white);
+  background-color: #0a0908;
+  color: #e6e1c5;
 }
 
 /* End Showcase Section */
@@ -148,8 +148,8 @@ p {
 @media (max-width: 900px) {
   /* Navbar */
   .navbar {
-    background-color: var(--smokey-black);
-    color: var(--pearl-white);
+    background-color: #0a0908;
+    color: #e6e1c5;
     opacity: 0.6;
   }
 
