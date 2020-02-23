@@ -41,6 +41,11 @@ p {
 .upper {
   text-transform: uppercase;
 }
+
+.background-light {
+  background-color: var(--pearl-white);
+  color: var(--smokey-black);
+}
 /* End of Utilities */
 
 /* Nav Bar Section */
