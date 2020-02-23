@@ -51,6 +51,16 @@ p {
   background-color: #3e78b2;
   color: #e6e1c5;
 }
+
+.underline-dark {
+  width: 20%;
+  border-top: 2px solid #0a0908;
+}
+
+.underline-light {
+  width: 20%;
+  border-top: 2px solid #e6e1c5;
+}
 /* End of Utilities */
 
 /* Nav Bar Section */
