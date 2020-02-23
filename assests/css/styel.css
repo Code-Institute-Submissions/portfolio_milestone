@@ -152,7 +152,25 @@ p {
   color: #e6e1c5;
 }
 
-/* End Showcase Section */
+/* End section: Showcase */
+
+/* Section: About-me */
+
+#about-me h2 {
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+/* End Section: About-me */
+
+/* Section: Skills */
+
+#skills h2 {
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
 
 /* Media Quiries */
 @media (max-width: 900px) {
