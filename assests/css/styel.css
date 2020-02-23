@@ -1,11 +1,11 @@
 /* Google Fonts import */
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i|Merriweather:300,300i,400,400i,700,700i,900&display=swap");
 
-/* #showcase {
-  background: url("../img/showcaseImg.jpg") bottom center / cover no-repeat;
+#showcase {
+  background: url("../img/showcase.jpg") bottom center / cover no-repeat;
   width: 100vw;
-  height: 80vh;
-}  */
+  height: 90vh;
+}
 
 /* #showcase h1 {
   font-family: "Merriweather", serif;
