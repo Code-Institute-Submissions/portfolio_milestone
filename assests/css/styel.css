@@ -43,7 +43,7 @@ p {
 
 /* Nav Bar Section */
 .navbar {
-  background-color: var(--pearl-white);
+  /* background-color: var(--pearl-white); */
   position: absolute;
   top: 0;
   right: 0;
@@ -53,19 +53,19 @@ p {
 
 .navbar .navbar-brand {
   font-size: 1.5rem;
-  color: var(--light-blue);
+  color: var(--pearl-white);
 }
 
 .navbar .nav-link {
   font-size: 1.25rem;
   margin: 0 5px 0 5px;
-  color: var(--light-blue);
+  color: var(--pearl-white);
   transition: all 0.5s;
 }
 
 .navbar .nav-link:hover {
-  color: var(--steele-blue);
-  border-bottom: 1px solid var(--steele-blue);
+  color: var(--light-blue);
+  border-bottom: 1px solid var(--light-blue);
   padding-bottom: 0;
 }
 /* End Nav Bar Section */
