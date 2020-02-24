@@ -234,12 +234,54 @@
     <!-- Section: Contact Me -->
     <section id="contact-me" class="background-dark py-4">
       <div class="container text-center">
-        <h2 class="upper">contact me</h2>
+        <h2 class="upper">Contact Me</h2>
         <hr class="underline-light" aria-hidden="true" />
-        <p class="lead">Fill out the form below to get in touch!</p>
+        <p class="lead">Please fill out the form below to contact me.</p>
         <div class="row">
-          <div class="col-md-6"></div>
+          <!-- Form content -->
           <div class="col-md-6">
+            <form action="">
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-envelope-open-text"></i>
+                  </span>
+                </div>
+                <input type="email" class="form-control" placeholder="Email" />
+              </div>
+
+              <div class="input-group input-group-lg mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  type="text"
+                  class="form-control"
+                  placeholder="Message"
+                  rows="5"
+                ></textarea>
+              </div>
+
+              <input
+                type="submit"
+                value="Submit"
+                class="btn btn-primary btn-lg btn-block"
+              />
+            </form>
+          </div>
+          <!-- Image -->
+          <div class="col-md-6 pt-4 pt-md-0">
             <img
               src="assests/img/form-image.jpg"
               alt="form image"
@@ -249,9 +291,11 @@
         </div>
       </div>
     </section>
+
     <!-- Section End: Contact Me -->
 
     <!-- Section: Footer -->
+
     <!-- Section End: Footer -->
 
     <!-- Font Awesome Script -->
