@@ -175,6 +175,12 @@ p {
   letter-spacing: 1px;
 } */
 
+/* Section: Contact-me  */
+#contact-me img {
+  border-radius: 100%;
+}
+/* End Section: Contact-me */
+
 /* Media Quiries */
 @media (max-width: 900px) {
   /* Navbar */
