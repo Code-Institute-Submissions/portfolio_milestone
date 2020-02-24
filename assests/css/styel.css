@@ -66,10 +66,10 @@ p {
 /* Nav Bar Section */
 .navbar {
   /* background-color: var(--pearl-white); */
-  position: absolute;
+  /* position: absolute;
   top: 0;
   right: 0;
-  left: 0;
+  left: 0; */
   z-index: 3;
 }
 
