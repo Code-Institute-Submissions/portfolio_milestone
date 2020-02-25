@@ -298,7 +298,7 @@
 
     <footer id="main-footer" class="background-light py-5">
       <div class="container text-center">
-        <p>ToDESIGN copyright &copy;<span id="year"></span></p>
+        <p>ToDESIGN copyright &copy; <span id="year"></span></p>
         <a href="#"><i class="fab fa-facebook fa-2x mx-5"></i></a>
         <a href="#"><i class="fab fa-twitter fa-2x mx-5"></i></a>
         <a href="#"><i class="fab fa-instagram fa-2x mx-5"></i></a>
@@ -333,6 +333,14 @@
     <script>
       //Get the current year for the copyright at the bottom of the page
       $("#year").text(new Date().getFullYear());
+
+      // Scroll effect for navbar
+      $(function() {
+        $(document).scroll(function() {
+          var $nav = $("#main-nav");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
     </script>
   </body>
 </html>
