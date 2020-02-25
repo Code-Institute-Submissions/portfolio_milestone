@@ -57,12 +57,12 @@ p {
 
 .underline-dark {
   width: 20%;
-  border-top: 2px solid #0a0908;
+  border-top: 2px solid #3e78b2;
 }
 
 .underline-light {
   width: 20%;
-  border-top: 2px solid #e6e1c5;
+  border-top: 2px solid #5fbcff;
 }
 /* End of Utilities */
 
@@ -187,9 +187,18 @@ p {
   letter-spacing: 1px;
 } */
 
+#skills i {
+  color: #5fbcff;
+}
+
+/* End Section: Skills */
+
+/* Section: Projects */
 #projects i {
   color: #3e78b2;
 }
+
+/* End Section: Projects */
 
 /* Section: Contact-me  */
 #contact-me img {
