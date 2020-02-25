@@ -173,6 +173,10 @@ p {
   letter-spacing: 1px;
 } */
 
+#about-me i {
+  color: #3e78b2;
+}
+
 /* End Section: About-me */
 
 /* Section: Skills */
@@ -182,6 +186,10 @@ p {
   font-weight: 100;
   letter-spacing: 1px;
 } */
+
+#projects i {
+  color: #3e78b2;
+}
 
 /* Section: Contact-me  */
 #contact-me img {
