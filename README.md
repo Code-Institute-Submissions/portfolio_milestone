@@ -40,3 +40,17 @@ To help develop the site I created some user stories from my perspective as the 
 # Wireframes.
 
 To help visualize the website I created wireframes of what the site would look like on desktop as well as what it would look like on mobile devices. The wireframes can be found here:
+
+# Technologies Used
+
+To complete this project I have used a variety of front end technologies.
+
+1. HTML 5: Modern HTML with semantice elements to form the structure of the site.
+2. CSS 3: Used to style the site includes flexbox and a grid system for modern layouts and responsive design.
+3. Bootsrap: A front end framework that simplifies the grid system and comes with many components and utility classes that help make front end development as easier experience.
+4. JQuery: A Javascript library that has been used to add a small amount of dynamism to the website.
+5. Google Fonts: Allows for a wider choice of fonts.
+6. Coolor.io: a website that was used to help pick the color palette for the site.
+7. Github: Used for version control and to store a remote copy of the project.
+8. Github pages: a feature of Github that allows us to deploy a static website and have it hosted online.
+9. VsCode: An IDE (Integrated Development Environment) that was created by Microsoft was used to build the website.
