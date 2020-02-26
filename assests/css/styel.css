@@ -220,6 +220,22 @@ p {
 }
 /* End Section: Contact-me */
 
+/* Footer: Section */
+#main-footer p {
+  font-size: 0.9rem;
+  color: #3e78b2;
+}
+
+#main-footer a {
+  color: #3e78b2;
+  transition: color 1s;
+}
+
+#main-footer a:hover {
+  color: #5fbcff;
+}
+/* End Footer: Section */
+
 /* Media Quiries */
 @media (max-width: 900px) {
   /* Navbar */
