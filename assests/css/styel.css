@@ -204,6 +204,20 @@ p {
 #contact-me img {
   border-radius: 100%;
 }
+
+#contact-me .form-btn {
+  background-color: #0a0908;
+  border: none;
+  outline: none;
+  color: #e6e1c5;
+  transition: all 1s;
+  border-radius: 2rem;
+}
+
+#contact-me .form-btn:hover {
+  background-color: #e6e1c5;
+  color: #0a0908;
+}
 /* End Section: Contact-me */
 
 /* Media Quiries */
