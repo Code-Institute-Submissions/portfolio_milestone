@@ -238,6 +238,16 @@ p {
 
 /* Media Quiries */
 @media (max-width: 900px) {
+  /* Utility */
+  .lead {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  /* End of Utility */
+
   /* Navbar */
   .navbar {
     background-color: #0a0908;
@@ -276,10 +286,6 @@ p {
 @media (max-width: 768px) {
   h2 {
     font-size: 2rem;
-  }
-
-  p {
-    font-size: 0.8rem;
   }
 
   #showcase {
