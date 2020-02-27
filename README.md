@@ -43,6 +43,14 @@ To help develop the site I created some user stories from my perspective as the 
 
 To help visualize the website I created wireframes of what the site would look like on desktop as well as what it would look like on mobile devices. The wireframes can be found here:
 
+## Mobile Design
+
+![Mobile Wireframe Mock up](designDocs/mobile_design.png)
+
+## Desktop Design
+
+![Desktop Wireframe Mock Up](designDocs/desktop_design.png)
+
 # Technologies Used
 
 To complete this project I have used a variety of front end technologies.
