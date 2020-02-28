@@ -82,9 +82,9 @@ To complete this project I have used a variety of front end technologies.
 
 ## Design Decisions On The Surface Plain
 
-To implement this project successfully I made certain design decisions that had an impact on the project somne of thes are:
+To implement this project successfully I made certain design decisions that had an impact on the project some of these decisions are:
 
-### Bootsrap
+### Bootstrap
 
 Bootstrap is used throughout this project. The use of Bootsrap was choosen as it presented many advantages. The main adavantages of Bootsrap was that it allowed for a complex page layout with the use of its grid system and flexbox utilities. Bootstrap also contains many useful margin and padding classes that reduced the need for repitive CSS and helped to keep my CSS DRY (Don't Repeat Yourself). Bootstrap also helped with cross browser compatability. The one downside to using Bootsrap is that it made the HTML code difficult to read and overly complex with regards to the many classes that are applied to the HTML elements. Another area this effected the code was when it came to refactoring the CSS as it meant adding utility classes for repitive code difficult to already class heavy HTML elements. One final area that Bootstrap had an negative effect on the project was when it came to testing using the CSS validator. The CSS validator did not regonize alot of Bootstrap CSS as valid and raised a lot of errors but if you copy and paste my code directly from style.css into the CSS validator it displays no errors.
 
@@ -94,11 +94,11 @@ I used the Bootstrap container class extensively throughout this project as I fe
 
 ### Fonts
 
-The use of fonts was also carefully considered in this project. I choose Merriweather and Montserrat fonts as both of these fonts are popular among web designers, versitle and modern looking. Merriweather also pairs well with Montserrat in regards to readability and style. Both fonts can be used as either heading or paragraph text and I feel that this combonation of fonts strikes the right chord between traditional and modern design.
+The use of fonts was also carefully considered in this project. I choose Merriweather and Montserrat fonts as both of these fonts are popular among web designers, along with being versitle and modern looking. Merriweather also pairs well with Montserrat in regards to readability and style. Both fonts can be used as either heading or paragraph text and I feel that this combonation of fonts strikes the right chord between traditional and modern design.
 
 ### Colours
 
-The main colours that I have choosen for this site are a steele blue, light blue and a hint of fresh air blue. For the text I used a smokey black colour along with a pearl white for an additonal contrast and for use in empty space. The primary reasons for choosing blue as the main colour is its popular with webdesign in general (Think of big sites like facebook and twitter). Also it is an extremly popular colour among both men and women, with a recent study showing men prefering it 42% of the the time and women 29% of the time. Blue also has a calming effect on the viewer and is also need to inspire trust in people.
+The main colours that I have choosen for this site are a steele blue, light blue and a hint of fresh air blue. For the text I used a smokey black colour along with a pearl white for an additonal contrast and for use in empty space. The primary reasons for choosing blue as the main colour is its popular with web design in general (Think of big sites like facebook and twitter). Also it is an extremly popular colour among both men and women, with a recent study showing men prefering it 42% of the the time and women 29% of the time. Blue also has a calming effect on the viewer and is also a colour used to inspire trust in people (think of police officers or docotors and nurses in hospitals).
 
 ### Text
 
@@ -106,11 +106,11 @@ For this project I did my best to keep the amount of text to a minimum so as to 
 
 ### CSS Variables
 
-Initially I decided to use CSS variables for my colours as a it allowed me to insert a name where I needed a colour to go instead of trying to remember a hex code. These worked well but they were not recognized by the W3 schools CSS validator as valid CSS so I removed them and replaced their use with the hex color codes instead.
+Initially I decided to use CSS variables for my colours as it allowed me to insert a name where I needed a colour to go instead of trying to remember a hex code. These worked well but they were not recognized by the W3 schools CSS validator as valid CSS so I removed them and replaced their use with the hex color codes instead.
 
 ### Mobile First Design
 
-This site incorporates the mobile first design philosophy throughout the site. The icons are set to not display as default and to only display on medium screen sizes and above. The same holds through for paragraphs and picutures which are set to stack by default and to go side by side on the bigger screen sizes. The one area that I didn't emplpy the mobile first approach was in the area of font sizes. This was because I was working on a larger screens size and it allowed me to judge better the quality of the font and the amount of text that I am using. To acheive a mobile frienbdly approach to the font size media quiries were used to reduce the font size on smaller screens.
+This site incorporates the mobile first design philosophy throughout the site. The icons are set to not display as default and to only display on medium screen sizes and above. The same holds through for paragraphs and picutures which are set to stack by default and to go side by side on the bigger screen sizes. The one area that I didn't employ the mobile first approach was in the area of font sizes. This was because I was working on a larger screens size and it allowed me more flexability when it came to judging the quality of the font, the size of the text, and the amount of text that I am using. To acheive a mobile friendly approach to the font size media quiries were used to reduce the font size on smaller screens.
 
 ## Testing
 
@@ -120,7 +120,7 @@ The results of the HTML validation can be seen in the below image:
 
 ![W3 schools HTML validation](designDocs/htmlValidationTest.PNG)
 
-The CSS validator highlighted alot of issues and errors when the site was tested by using the URL as input. This is because the site is also testing the Bootstrap style sheet and it does not recognize CSS variables as valid CSS for some reason. If the tester copies my code from style.css and directly pastes it into the testing window my code will pass with no errors.
+The CSS validator highlighted a lot of issues and errors when the site was tested by using the URL as input. This is because the site is also testing the Bootstrap style sheet and it does not recognize CSS variables as valid CSS for some reason. If the tester copies my code from style.css and directly pastes it into the testing window my code will pass with no errors.
 
 The reults of the URL input test can be seen in the screenshot below where it is highlighted that the Bootstrap stylesheet is the cause of the errors:
 
