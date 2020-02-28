@@ -4,6 +4,12 @@
 
 This project is designed as a one page portfolio project that will demonstrate my ability with using HTML and CSS. The project uses core front end technologies along with the Bootstrap front-end framework for added responsivness and for improved cross browser compatability. The site also takes advantage of Google Fonts to allow for more of a modern feeling typgrophy set.
 
+## Demo
+
+A live demo of the site can be found hosted on Github pages by following this link:
+
+https://tod619.github.io/portfolio_milestone/
+
 ## Project Description
 
 This project is a one page static portfolio site that I am using to highlight my skills and qualifactions when it comes to front end development. The project consits of seven sections, of which six are main sections that are used to guide the user to get to know more about me and my skills along with providing the user an easy way to contact me if they are interested in my work with a seventh section as the footer. The seven sections and their purpose are as follows:
@@ -154,3 +160,18 @@ The site looked perfect and how I expected it to look across all the browers exc
 ![showcase on Internet Explorer](designDocs/IEresults.PNG)
 
 As is clearly visible everything in the showcase has fallen out of allignment, that is because this is the only area in the site that is using Bootstrap's flexbox utilities and not the grid system. After reading up on it, I discovered that IE has problems displaying flexbox and I used Bootstrap flex utitilities on this section of the site. I would plan on fix this in a future update to the site.
+
+## Deployment
+
+This site is deployed using a feature of Github known as Github Pages. To make your site go live on the internet you need to follow the following steps:
+
+1. Select the repository that you wish to make live.
+2. Make sure that the home page is called index.html
+3. At the top of the page click on the settings tab.
+4. Once in the settings section scroll down the page untill you get to a section called github pages.
+5. Where the option exits to select a branch to deploy change the option from none to master branch.
+6. If you have followed these steps correctly the page should reload.
+7. Scroll back down to the github pages section and you should see a message that reads something like this: your site is ready to be deployed at username.github.io/example
+8. Wait for a few minutes and refresh the page and the if successfully the message should now read: Your site is published at ...
+
+To create a local copy of the project you can select the repository and just above the readme file you will see a button that gives you the option to download or clone the file.
