@@ -18,12 +18,12 @@ This project is a one page static portfolio site that I am using to highlight my
 
 ## Project Strategy
 
-When creating this project I need to develop an overall strategy and understand purpose of this project and to keep these ideas in mind when implementing the completed design. This project has a twofold purpose.
+When creating this project I needed to develop an overall strategy and understand purpose of this project and to keep these ideas in mind when implementing the completed design. This project has a twofold purpose.
 
 1. Demonstrate the skills that I have acquired from the Code Institute curriculam thus far and pass the assesment criteria of Code Institute.
 2. Create a fully featured front end project that I can use to draw attention to my skills and attract potential employeers/clients.
 
-With these criteria in mind I determined that a one page static site would be the best option. It would make navigation and organization of the data simple. It would allow me to showcase some of my design ability and allow me to focus on primarily HTML and CSS. The donwside of this approach meant that the site would like overall complexity and I needed to be careful not to overload the user with too much information in the form of text as this could lead to a very cluttered looking site.
+With these criteria in mind I determined that a one page static site would be the best option. It would make navigation and organization of the data simple. It would allow me to showcase some of my design ability and allow me to focus on primarily HTML and CSS. The donwside of this approach meant that the site would lack overall complexity and I needed to be careful not to overload the user with too much information in the form of text as this could lead to a very cluttered looking site.
 
 ## The Scope of This Project
 
@@ -38,11 +38,11 @@ The showcase section contains an eye catching heading that introduces me to the 
 
 ## User Stories
 
-To help develop the site I created some user stories from my perspective as the site owner, along with user stories for potential employeers or clients. By doing this, it helped me to identify what was important information that needed to be included and also helped me to identify things that I could leave out so that the site doesn't become to bloated with content or difficult to navigate.
+To help develop the site I created some user stories from my perspective as the site owner, along with user stories for potential employeers or clients. By doing this, it helped me to identify what was important information that needed to be included and also helped me to identify things that I could leave out so that the site doesn't become overly bloated with content or difficult to navigate.
 
 ### My Perspective:
 
-1. As the owner I won't a site that will act as an introduction to potential employers/clients.
+1. As the owner I would like a site that will act as an introduction to potential employers/clients.
 2. As the owner I would like a site that would highlight my technical skills.
 3. As the owner I won't like a site that would showcase some of my projects.
 4. As the owner I would like a site that would allow a member of the public to contact me.
@@ -66,7 +66,7 @@ To help visualize the website I created wireframes of what the site would look l
 
 ![Desktop Wireframe Mock Up](designDocs/desktop_design.png)
 
-# Technologies Used
+## Technologies Used
 
 To complete this project I have used a variety of front end technologies.
 
