@@ -175,3 +175,25 @@ This site is deployed using a feature of Github known as Github Pages. To make y
 8. Wait for a few minutes and refresh the page and the if successfully the message should now read: Your site is published at ...
 
 To create a local copy of the project you can select the repository and just above the readme file you will see a button that gives you the option to download or clone the file.
+
+## Future Improvements
+
+Although I am pleased with how the site turned out there are still some features that I would like to implement in a future version of the site.
+
+Firstly I would like to fix the issues that I have had with Internet Explorer and how it has affected how my showcase section displays on this browser.
+
+The second thing that I would like to change is that I would like to include links to actually projects that I have created. The projects in the project section are not real and I have not created any of them nor have i ever developed on Android and I also know nothing about SEO. In the future as I grow as a developer I hope to flesh this section out with actual projects that I will be proud to showcase.
+
+## References
+
+This project would not have been possible without the following:
+
+images were taken from https://www.pexels.com/
+
+icons were sourced from https://fontawesome.com/
+
+the jquery for the navbar was adapted from course material by Colt Steele taken from https://www.udemy.com/course/the-web-developer-bootcamp/
+
+An additional take you to my mentor Adegbenga Adeye who gave me some advice that really improved the look of the site.
+
+NB. All information on this site is meant for educationally purposes only
