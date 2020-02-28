@@ -16,6 +16,21 @@ This project is a one page static portfolio site that I am using to highlight my
 6. Contact: this section consits of a form to contact me.
 7. Footer: This final section is not considerd part of the main sections but it does contain some useful social media links that can be used as an alternative way of contacting me.
 
+## Project Strategy
+
+When creating this project I need to develop an overall strategy and understand purpose of this project and to keep these ideas in mind when implementing the completed design. This project has a twofold purpose.
+
+1. Demonstrate the skills that I have acquired from the Code Institute curriculam thus far and pass the assesment criteria of Code Institute.
+2. Create a fully featured front end project that I can use to draw attention to my skills and attract potential employeers/clients.
+
+With these criteria in mind I determined that a one page static site would be the best option. It would make navigation and organization of the data simple. It would allow me to showcase some of my design ability and allow me to focus on primarily HTML and CSS. The donwside of this approach meant that the site would like overall complexity and I needed to be careful not to overload the user with too much information in the form of text as this could lead to a very cluttered looking site.
+
+## The Scope of This Project
+
+The main scope of this project was to demonstrate what I have learned thus far in the Code Institute course with regards to HTML and CSS. With this in mind I needed to be careful that I didn't get distracted with trying to be overly complex or to place to much emphasise on things such as JavaScript or JQuery that would not be part of the examination criteria.
+
+A secondary part of the scope for me was to create an attractive site using the above mentioned technologies. For this reason I spent a bit of time deciding the best colour combination, the type of fonts, and the best layout options for this project.
+
 ## UI / UX
 
 The layout and content of the site has been carfully curated to logically tell the user the story of my skill set.
