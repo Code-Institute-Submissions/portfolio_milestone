@@ -79,3 +79,27 @@ To complete this project I have used a variety of front end technologies.
 7. Github: Used for version control and to store a remote copy of the project.
 8. Github pages: a feature of Github that allows us to deploy a static website and have it hosted online.
 9. VsCode: An IDE (Integrated Development Environment) that was created by Microsoft was used to build the website.
+
+## Design Decisions On The Surface Plain
+
+To implement this project successfully I made certain design decisions that had an impact on the project somne of thes are:
+
+### Bootsrap
+
+Bootstrap is used throughout this project. The use of Bootsrap was choosen as it presented many advantages. The main adavantages of Bootsrap was that it allowed for a complex page layout with the use of its grid system and flexbox utilities. Bootstrap also contains many useful margin and padding classes that reduced the need for repitive CSS and helped to keep my CSS DRY (Don't Repeat Yourself). Bootstrap also helped with cross browser compatability. The one downside to using Bootsrap is that it made the HTML code difficult to read and overly complex with regards to the many classes that are applied to the HTML elements. Another area this effected the code was when it came to refactoring the CSS as it meant adding utility classes for repitive code difficult to already class heavy HTML elements.
+
+### Fonts
+
+The use of fonts was also carefully considered in this project. I choose Merriweather and Montserrat fonts as both of these fonts are popular among web designers, versitle and modern looking. Merriweather also pairs well with Montserrat in regards to readability and style. Both fonts can be used as either heading or paragraph text and I feel that this combonation of fonts strikes the right chord between traditional and modern design.
+
+### Colours
+
+The main colours that I have choosen for this site are a steele blue, light blue and a hint of fresh air blue. For the text I used a smokey black colour along with a pearl white for an additonal contrast and for use in empty space. The primary reasons for choosing blue as the main colour is its popular with webdesign in general (Think of big sites like facebook and twitter). Also it is an extremly popular colour among both men and women, with a recent study showing men prefering it 42% of the the time and women 29% of the time. Blue also has a calming effect on the viewer and is also need to inspire trust in people.
+
+### Text
+
+For this project I did my best to keep the amount of text to a minimum so as to not overwhelm the user with useless or unneccessary information. With this in mind I tried to keep each block of text to about fifty words. This way I conveyed all the improtant information without overly bloated or complex text that would look espically out of place on a mobile screen.
+
+### Mobile First Design
+
+This site incorporates the mobile first design philosophy throughout the site. The icons are set to not display as default and to only display on medium screen sizes and above. The same holds through for paragraphs and picutures which are set to stack by default and to go side by side on the bigger screen sizes. The one area that I didn't emplpy the mobile first approach was in the area of font sizes. This was because I was working on a larger screens size and it allowed me to judge better the quality of the font and the amount of text that I am using. To acheive a mobile frienbdly approach to the font size media quiries were used to reduce the font size on smaller screens.
