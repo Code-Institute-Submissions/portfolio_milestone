@@ -3,15 +3,6 @@
 
 /* Common Styles */
 
-/* :root {
-  Color scheme
-  --pearl-white: #e6e1c5;
-  --smokey-black: #0a0908;
-  --fresh-air: #a8e0ff;
-  --light-blue: #5fbcff;
-  --steele-blue: #3e78b2;
-}  */
-
 /* Body */
 body {
   font-family: "Montserrat", sans-serif;
@@ -33,7 +24,6 @@ h2 {
 
 /* Paragraphs */
 p {
-  /* color: var(--smokey-black); */
   line-height: 1.5;
   font-size: 1.25rem;
 }
@@ -68,11 +58,6 @@ p {
 
 /* Nav Bar Section */
 .navbar {
-  /* background-color: var(--pearl-white); */
-  /* position: absolute;
-  top: 0;
-  right: 0;
-  left: 0; */
   z-index: 3;
 }
 
@@ -128,17 +113,10 @@ p {
 }
 
 #showcase h1 {
-  /* color: #fff; */
   font-size: 6rem;
   font-weight: 100;
   letter-spacing: 1px;
 }
-
-/* #showcase h2 {
-  font-size: 4rem;
-  font-weight: 100;
-  letter-spacing: 1px;
-} */
 
 #showcase p {
   color: #fff;
@@ -167,12 +145,6 @@ p {
 
 /* Section: About-me */
 
-/* #about-me h2 {
-  font-size: 3rem;
-  font-weight: 100;
-  letter-spacing: 1px;
-} */
-
 #about-me i {
   color: #3e78b2;
 }
@@ -180,12 +152,6 @@ p {
 /* End Section: About-me */
 
 /* Section: Skills */
-
-/* #skills h2 {
-  font-size: 3rem;
-  font-weight: 100;
-  letter-spacing: 1px;
-} */
 
 #skills i {
   color: #5fbcff;
