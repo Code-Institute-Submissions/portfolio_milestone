@@ -106,7 +106,9 @@ This site incorporates the mobile first design philosophy throughout the site. T
 
 ## Testing
 
-Throughout the process of developing this site I regularly checked my code using the W3Schools HTML and CSS validators. For responsivness I checked a website called am I responvie. I also checked how the site looked on a variety of devices and browsers.
+Throughout the process of developing this site I regularly checked my code using the W3Schools HTML and CSS validators. The CSS validator highlighted alot of issues and errors when the site was tested by using the URL as input. This is because the site is also testing the Bootstrap style sheet and it does not recognize CSS variables as valid CSS for some reason. If the tester copies my code from style.css and directly pastes it into the testing window my code will pass with no errors.
+
+For responsivness I checked a website called am I responvie. I also checked how the site looked on a variety of devices and browsers.
 The devices that I checked the site on were:
 
 1. 15 inch HP Laptop
