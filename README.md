@@ -103,3 +103,26 @@ For this project I did my best to keep the amount of text to a minimum so as to 
 ### Mobile First Design
 
 This site incorporates the mobile first design philosophy throughout the site. The icons are set to not display as default and to only display on medium screen sizes and above. The same holds through for paragraphs and picutures which are set to stack by default and to go side by side on the bigger screen sizes. The one area that I didn't emplpy the mobile first approach was in the area of font sizes. This was because I was working on a larger screens size and it allowed me to judge better the quality of the font and the amount of text that I am using. To acheive a mobile frienbdly approach to the font size media quiries were used to reduce the font size on smaller screens.
+
+## Testing
+
+Throughout the process of developing this site I regularly checked my code using the W3Schools HTML and CSS validators. For responsivness I checked a website called am I responvie. I also checked how the site looked on a variety of devices and browsers.
+The devices that I checked the site on were:
+
+1. 15 inch HP Laptop
+2. 13 inch Macbook pro
+3. 21 inch desktop PC
+4. Samsung galaxy phone
+5. Iphone 7
+
+The site looked great on all these devices and didn't seem to show any problems.
+
+The browsers I used for testing are as follows:
+
+1. Google Chrome
+2. Firefox
+3. Safari
+4. Microsoft Edge
+5. Microsoft Internet Explorer
+
+The site looked perfect and how I expected it to look across all the browers except in Internet Explorer. On IE the showcase text and image all fell out of alignment and the font awesome icons did not appear. After reading up on it, I discovered that IE has problems displaying flexbox and I used Bootstrap flex utitilities on this section of the site. I would plan on fix this in a future update to the site.
