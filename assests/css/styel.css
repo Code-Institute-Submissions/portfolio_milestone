@@ -93,7 +93,6 @@ p {
   background: url("../img/showcase.jpg") bottom center / cover no-repeat;
   width: 100vw;
   height: 95vh;
-  position: fixed;
   color: #fff;
   position: relative;
 }
