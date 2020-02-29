@@ -2,7 +2,7 @@
 
 ![Website on different devices](designDocs/DesktopImg.PNG)
 
-This project is designed as a one page portfolio project that will demonstrate my ability with using HTML and CSS. The project uses core front end technologies along with the Bootstrap front-end framework for added responsivness and for improved cross browser compatability. The site also takes advantage of Google Fonts to allow for more of a modern feeling typgrophy set.
+This project is designed as a one page portfolio project that will demonstrate my ability with using HTML and CSS for my Milestone One project for Code Institute. The project uses core front end technologies along with the Bootstrap front-end framework for added responsivness and for improved cross browser compatability. The site also takes advantage of Google Fonts to allow for more of a modern feeling typgrophy set.
 
 ## Demo
 
@@ -22,14 +22,27 @@ This project is a one page static portfolio site that I am using to highlight my
 6. Contact: this section consits of a form to contact me.
 7. Footer: This final section is not considerd part of the main sections but it does contain some useful social media links that can be used as an alternative way of contacting me.
 
+## Project Features
+
+This project has a few interesting features that I feel need special mention.
+
+1. Responsive Navigation Bar: The navigation bar changes to a dropdown menu in smaller screens.
+2. Navbar Background colour: Initially the navigation bar doesn't have any colour. As the user scrolls down the page the navigation bar gets a background colour applied to it. By doing this it allows the navigation links to remain visible and not get obscured by the lighter colours on some of the section backgrounds.
+3. Dark Overlay: On the showcase section a dark overlay was applied which provides a contrast so that the text on the image stands out.
+4. Responsive Icons: The icons in each section are designed to not show by default so that on smaller screens they are not taking up the limited screen space. These icons will appear on medium screen sizes and above.
+5. Stacking Columns: On smaller screens the information in each section stack one ontop of the other in a logical way. On larger screens everything stacks side by side to take up the extra width of the screen.
+6. Form With Validation: the form uses simple validation so that the user has to input an email address in the email input otherwise the input will be rejected.
+7. Social Links: the social media icons have a hover effect and also when clicked they open up in a new browser window while keeping my page open. This allows the user to easily get back to my page once the icons are clicked.
+8. Footer Date: The date on the footer updates itself automatically through the use of JQuery.
+
 ## Project Strategy
 
-When creating this project I needed to develop an overall strategy and understand purpose of this project and to keep these ideas in mind when implementing the completed design. This project has a twofold purpose.
+When creating this project I needed to develop an overall strategy which would help me to understand the purpose of this project. I needed to keep these ideas in mind when implementing the completed design. This project has a twofold purpose.
 
 1. Demonstrate the skills that I have acquired from the Code Institute curriculam thus far and pass the assesment criteria of Code Institute.
 2. Create a fully featured front end project that I can use to draw attention to my skills and attract potential employeers/clients.
 
-With these criteria in mind I determined that a one page static site would be the best option. It would make navigation and organization of the data simple. It would allow me to showcase some of my design ability and allow me to focus on primarily HTML and CSS. The donwside of this approach meant that the site would lack overall complexity and I needed to be careful not to overload the user with too much information in the form of text as this could lead to a very cluttered looking site.
+With these criteria in mind I determined that a one page static site would be the best option. It would make navigation and organization of the data simple. It would allow me to showcase some of my design ability and allow me to focus on primarily HTML and CSS. The donwside of this approach means that the site might lack overall complexity. I needed to be careful not to overload the user with too much information in the form of text as this could lead to a very cluttered looking site.
 
 ## The Scope of This Project
 
@@ -85,6 +98,7 @@ To complete this project I have used a variety of front end technologies.
 7. Github: Used for version control and to store a remote copy of the project.
 8. Github pages: a feature of Github that allows us to deploy a static website and have it hosted online.
 9. VsCode: An IDE (Integrated Development Environment) that was created by Microsoft was used to build the website.
+10. Balsamiq: A design tool that was used to create the wireframe mockups.
 
 ## Design Decisions On The Surface Plain
 
@@ -92,19 +106,19 @@ To implement this project successfully I made certain design decisions that had 
 
 ### Bootstrap
 
-Bootstrap is used throughout this project. The use of Bootsrap was choosen as it presented many advantages. The main adavantages of Bootsrap was that it allowed for a complex page layout with the use of its grid system and flexbox utilities. Bootstrap also contains many useful margin and padding classes that reduced the need for repitive CSS and helped to keep my CSS DRY (Don't Repeat Yourself). Bootstrap also helped with cross browser compatability. The one downside to using Bootsrap is that it made the HTML code difficult to read and overly complex with regards to the many classes that are applied to the HTML elements. Another area this effected the code was when it came to refactoring the CSS as it meant adding utility classes for repitive code difficult to already class heavy HTML elements. One final area that Bootstrap had an negative effect on the project was when it came to testing using the CSS validator. The CSS validator did not regonize alot of Bootstrap CSS as valid and raised a lot of errors but if you copy and paste my code directly from style.css into the CSS validator it displays no errors.
+Bootstrap is used throughout this project. The use of Bootsrap was choosen as it presented many advantages. The main adavantages of Bootsrap was that it allowed for a complex page layout with the use of its grid system and flexbox utilities. Bootstrap also contains many useful margin and padding classes that reduced the need for repitive CSS and helped to keep my CSS DRY (Don't Repeat Yourself). Bootstrap also helped with cross browser compatability. The downsides to using Bootsrap is that it made the HTML code difficult to read and overly complex with regards to the many classes that are applied to the HTML elements. Another area this affected the code was when it came to refactoring the CSS as it made adding utility classes for repitive code difficult to already class heavy HTML elements. One final area that Bootstrap had an negative affect on the project was when it came to testing using the CSS validator. The CSS validator did not regonize alot of Bootstrap CSS as valid and raised a lot of errors but if you copy and paste my code directly from style.css into the CSS validator it displays no errors.
 
 ### Container
 
-I used the Bootstrap container class extensively throughout this project as I felt it improved the overall look of the site. The container-fluid class is ofter used as a default by alot of developers but i feel that it places content (espically text content) to close to the screen edges. Most peoples eyes are drawn towards the center of the screen and I feel that by using the container class it provides a better user experience. I also wrapped the contents of the navbar (brand and ul) in the container class as this brought all the content inline with each other. The fewer lines that you can trace across your page leads to a cleaner design and a nicer viewing experience.
+I used the Bootstrap container class extensively throughout this project as I felt it improved the overall look of the site. The container-fluid class is ofter used as a default by alot of developers but i feel that it places content (espically text content) too close to the screen edges. Most peoples eyes are drawn towards the center of the screen and I feel that by using the container class it provides a better user experience. I also wrapped the contents of the navbar (brand and ul) in the container class as this brought all the content inline with each other. The fewer lines that you can trace across your page leads to a cleaner design and a better viewing experience.
 
 ### Fonts
 
-The use of fonts was also carefully considered in this project. I choose Merriweather and Montserrat fonts as both of these fonts are popular among web designers, along with being versitle and modern looking. Merriweather also pairs well with Montserrat in regards to readability and style. Both fonts can be used as either heading or paragraph text and I feel that this combonation of fonts strikes the right chord between traditional and modern design.
+The use of fonts was also carefully considered in this project. I choose Merriweather and Montserrat fonts as both of these fonts are popular among web designers, along with being versitle and modern looking. Merriweather also pairs well with Montserrat in regards to readability and style. Both fonts can be used as either heading or paragraph text and I feel that this combonation of fonts strikes the right balance between traditional and modern design.
 
 ### Colours
 
-The main colours that I have choosen for this site are a steele blue, light blue and a hint of fresh air blue. For the text I used a smokey black colour along with a pearl white for an additonal contrast and for use in empty space. The primary reasons for choosing blue as the main colour is its popular with web design in general (Think of big sites like facebook and twitter). Also it is an extremly popular colour among both men and women, with a recent study showing men prefering it 42% of the the time and women 29% of the time. Blue also has a calming effect on the viewer and is also a colour used to inspire trust in people (think of police officers or docotors and nurses in hospitals).
+The main colours that I have choosen for this site are a steele blue, light blue and a hint of fresh air blue. For the text I used a smokey black colour along with a pearl white for an additonal contrast and for use in empty space. The primary reasons for choosing blue as the main colour is its popular with web design in general (Think of big sites like facebook and twitter). Also it is an extremly popular colour among both men and women, with a recent study showing men prefering it 42% of the the time and women 29% of the time. Blue also has a calming effect on the viewer and is also a colour used to inspire trust in people (think of police officers with their blue uniforms or docotors and nurses in hospitals with blue scrubs and uniforms).
 
 ### Text
 
@@ -176,13 +190,15 @@ This site is deployed using a feature of Github known as Github Pages. To make y
 
 To create a local copy of the project you can select the repository and just above the readme file you will see a button that gives you the option to download or clone the file.
 
-## Future Improvements
+## Future Features And Improvements
 
 Although I am pleased with how the site turned out there are still some features that I would like to implement in a future version of the site.
 
 Firstly I would like to fix the issues that I have had with Internet Explorer and how it has affected how my showcase section displays on this browser.
 
 The second thing that I would like to change is that I would like to include links to actually projects that I have created. The projects in the project section are not real and I have not created any of them nor have i ever developed on Android and I also know nothing about SEO. In the future as I grow as a developer I hope to flesh this section out with actual projects that I will be proud to showcase.
+
+Thirdly I would like to create a blog section for the site with a fully functioning backend. This could be used as a way for me to showcase new projects that I am working on or new technologies that I am learning.
 
 ## References
 
@@ -194,6 +210,6 @@ icons were sourced from https://fontawesome.com/
 
 the jquery for the navbar was adapted from course material by Colt Steele taken from https://www.udemy.com/course/the-web-developer-bootcamp/
 
-An additional take you to my mentor Adegbenga Adeye who gave me some advice that really improved the look of the site.
+An additional thanks to my mentor Adegbenga Adeye who gave me some advice that really improved the look of the site.
 
-NB. All information on this site is meant for educationally purposes only
+NB. All information on this site is meant for educational purposes only.
