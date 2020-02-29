@@ -260,4 +260,8 @@ p {
   #showcase h1 {
     font-size: 3.5rem;
   }
+
+  #showcase h2 {
+    font-size: 2rem;
+  }
 }
